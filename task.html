@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           table,
+        tr,
+        td,
+        th {
+            border: 2px solid;
+            border-collapse: collapse;
+        }
+        img{
+        width: 100%;
+      }
+      body{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+</head>
+<body>
+    <script>
+          // task1
+          let paragraph = document.createElement('p');
+          paragraph.innerText = "Life can only be understood backwards; but it must be lived forwards";
+          document.body.appendChild(paragraph);
+           // task2
+       let div = document.createElement('div');
+       let heading1 = document.createElement('h1');
+       let heading2 = document.createElement('h2');
+       heading1.innerText = "Likhitha"
+       heading2.innerText = "Reddy"
+       div.appendChild(heading1);
+       div.appendChild(heading2);
+       document.body.appendChild(div);
+       //task5
+      let div1 = document.createElement('div');
+      let img = document.createElement('img');
+      let caption = document.createElement('p');
+      img.src = 'dog.jpg'; 
+      img.alt = 'Placeholder Image'; 
+      caption.innerText = "A dog is the only thing on earth that loves you more than he loves himself.";
+      div1.appendChild(img);
+      div1.appendChild(caption);
+      document.body.appendChild(div1);
+         // task3
+         let ul = document.createElement('ul');
+         let list1 = document.createElement('li');
+         let list2 = document.createElement('li');
+         let list3 = document.createElement('li');
+         list1.innerText = "Vishnu";
+         list2.innerText = "Likhitha";
+         list3.innerText = "Praveen";
+         ul.appendChild(list1);
+         ul.appendChild(list2);
+         ul.appendChild(list3);
+         document.body.appendChild(ul)
+       //task4
+       let table = document.createElement('table');
+       let tr1 = document.createElement('tr');
+       let tr2 = document.createElement('tr');
+       let tr3 = document.createElement('tr');
+       let th1 = document.createElement('th');
+       let th2 = document.createElement('th');
+       let td1 = document.createElement('td');
+       let td2 = document.createElement('td');
+       let td3 = document.createElement('td');
+       let td4 = document.createElement('td');
+       
+       th1.innerText = "Name";
+       th2.innerText = "Age";
+       td1.innerText = "Lilly";
+       td2.innerText = "21";
+       td3.innerText = "Bunny";
+       td4.innerText = "19";
+       tr1.appendChild(th1);
+       tr1.appendChild(th2);
+       tr2.appendChild(td1);
+       tr2.appendChild(td2);
+       tr3.appendChild(td3);
+       tr3.appendChild(td4);
+       table.appendChild(tr1);
+       table.appendChild(tr2);
+       table.appendChild(tr3);
+       document.body.append(table);
+      
+     //task6
+     let orderlist = document.createElement('ol');
+     let list11 = document.createElement('li');
+     let list12 = document.createElement('li');
+     let nestedlist = document.createElement('ol');
+     let nestlist1 = document.createElement('li');
+     let nestlist2 = document.createElement('li');
+     list11.innerText = "Likhitha";
+     list12.innerText = "Reddy";
+     nestlist1.innerText = "Eshwar";
+     nestlist2.innerText = "Reddy";
+     nestedlist.appendChild(nestlist1);
+     nestedlist.appendChild(nestlist2);
+     orderlist.appendChild(list11);
+     orderlist.appendChild(list12);
+     orderlist.appendChild(nestedlist);
+     document.body.appendChild(orderlist);
+     //task7
+     let section  = document.createElement('section');
+     let heading = document.createElement('h3');
+     let para = document.createElement('p');
+     heading.innerText = "INDIA";
+     para.innerText = " India is not a country, but a home.";
+     section.appendChild(heading);
+     section.appendChild(para);
+     document.body.appendChild(section);
+    //task8
+    let dl  = document.createElement('dl');
+    let dt1  = document.createElement('dt');
+    let dt2  = document.createElement('dt');
+    let dt3  = document.createElement('dt');
+    let dd1  = document.createElement('dd');
+    let dd2  = document.createElement('dd');
+    let dd3  = document.createElement('dd');
+    dt1.innerText = "Mom"
+    dt2.innerText = "Dad"
+    dt3.innerText = "Bro"
+    dd1.innerText = "A Mother is a source of unconditional love and support , nurturing us through every stage of life.";
+    dd2.innerText = "A Father is someone you look up to no matter how tall you've grown."
+    dd3.innerText = "A Brother is the gift to the heart,a friend to the spirit."
+    dt1.appendChild(dd1);
+    dt2.appendChild(dd2);
+    dt3.appendChild(dd3);
+    dl.appendChild(dt1);
+    dl.appendChild(dt2);
+    dl.appendChild(dt3);
+    document.body.appendChild(dl);
+    //task 9
+    let div2  = document.createElement('div');
+    let blockquote  = document.createElement('blockquote');
+    blockquote.innerText = "In the end, we will remember not the words of our enemies, but the silence of our friends.";
+    div2.appendChild(blockquote);
+    document.body.appendChild(div2);
+    //task 10
+    let div3  = document.createElement('div');
+    let paragraph1 =  document.createElement('p');
+    let paragraph2 =  document.createElement('p');
+    let paragraph3 =  document.createElement('p');
+    paragraph1.innerText = "paragraph1";
+    paragraph2.innerText = "paragraph2";
+    paragraph3.innerText = "paragraph3";
+    div3.appendChild(paragraph1);
+    div3.appendChild(paragraph2);
+    div3.appendChild(paragraph3);
+    document.body.appendChild(div3);
+    </script>
+</body>
+</html> 
